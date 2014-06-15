@@ -1,0 +1,808 @@
+[ 2014-06-03T02:34:00+08:00 ] 127.0.0.1 /demo/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002504s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Common\functions.php 第 566 行.
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Common\functions.php 第 566 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016636s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016717s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.002152s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002153s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002117s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002322s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008894s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002684s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002741s ]
+
+[ 2014-06-03T02:34:21+08:00 ] 127.0.0.1 /demo/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002113s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002264s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Common\functions.php 第 566 行.
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Common\functions.php 第 566 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.003441s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003572s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.001274s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000889s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000858s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000909s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004096s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000889s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000936s ]
+
+[ 2014-06-03T02:57:49+08:00 ] 127.0.0.1 /demo/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001591s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Common\functions.php 第 566 行.
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Common\functions.php 第 566 行.
+
+[ 2014-06-03T02:57:51+08:00 ] 127.0.0.1 /demo/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001009s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Common\functions.php 第 566 行.
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Common\functions.php 第 566 行.
+
+[ 2014-06-03T03:04:19+08:00 ] 127.0.0.1 /demo/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003408s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003501s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000929s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000997s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Common\functions.php 第 566 行.
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Common\functions.php 第 566 行.
+
+[ 2014-06-03T03:04:22+08:00 ] 127.0.0.1 /demo/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002079s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002237s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002187s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Common\functions.php 第 566 行.
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Common\functions.php 第 566 行.
+
+[ 2014-06-03T03:04:22+08:00 ] 127.0.0.1 /demo/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000940s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001018s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000934s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000997s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Common\functions.php 第 566 行.
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Common\functions.php 第 566 行.
+
+[ 2014-06-03T03:04:22+08:00 ] 127.0.0.1 /demo/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000913s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000989s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000951s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Common\functions.php 第 566 行.
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Common\functions.php 第 566 行.
+
+[ 2014-06-03T03:04:23+08:00 ] 127.0.0.1 /demo/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000881s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000949s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000911s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Common\functions.php 第 566 行.
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Common\functions.php 第 566 行.
+
+[ 2014-06-03T03:04:23+08:00 ] 127.0.0.1 /demo/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000935s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000945s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000996s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Common\functions.php 第 566 行.
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Common\functions.php 第 566 行.
+
+[ 2014-06-03T03:04:23+08:00 ] 127.0.0.1 /demo/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000895s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000986s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000903s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000965s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Common\functions.php 第 566 行.
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Common\functions.php 第 566 行.
+
+[ 2014-06-03T03:04:23+08:00 ] 127.0.0.1 /demo/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001166s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001259s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001285s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Common\functions.php 第 566 行.
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Common\functions.php 第 566 行.
+
+[ 2014-06-03T03:04:23+08:00 ] 127.0.0.1 /demo/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000900s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000965s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000873s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000924s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Common\functions.php 第 566 行.
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Common\functions.php 第 566 行.
+
+[ 2014-06-03T03:04:24+08:00 ] 127.0.0.1 /demo/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000906s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001002s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000970s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Common\functions.php 第 566 行.
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Common\functions.php 第 566 行.
+
+[ 2014-06-03T03:04:30+08:00 ] 127.0.0.1 /demo/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000905s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000987s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Common\functions.php 第 566 行.
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Common\functions.php 第 566 行.
+
+[ 2014-06-03T03:05:30+08:00 ] 127.0.0.1 /demo/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002779s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002981s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002675s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Common\functions.php 第 566 行.
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Common\functions.php 第 566 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.001573s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001640s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.001224s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000955s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000899s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000932s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004185s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000926s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000981s ]
+
+[ 2014-06-03T03:07:07+08:00 ] 127.0.0.1 /demo/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002168s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002334s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002142s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002272s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Common\functions.php 第 566 行.
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Common\functions.php 第 566 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012784s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012940s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001165s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001156s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000913s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000913s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004346s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000900s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000949s ]
+
+[ 2014-06-03T03:07:53+08:00 ] 127.0.0.1 /demo/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000924s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000997s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Common\functions.php 第 566 行.
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Common\functions.php 第 566 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008216s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008297s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000967s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000929s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000964s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004031s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001004s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001062s ]
+
+[ 2014-06-03T03:21:03+08:00 ] 127.0.0.1 /demo/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002172s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002331s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Common\functions.php 第 566 行.
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Common\functions.php 第 566 行.
+NOTIC: [2] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: NO) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+ERR: Access denied for user 'root'@'localhost' (using password: NO)
+
+[ 2014-06-03T03:22:15+08:00 ] 127.0.0.1 /demo/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000947s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001031s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Common\functions.php 第 566 行.
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `think_data` [ RunTime:0.002522s ]
+ERR: 1146:Table 'thinkphp.think_data' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_data`
+SQL: SELECT * FROM `think_data`  [ RunTime:0.000249s ]
+ERR: 1146:Table 'thinkphp.think_data' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `think_data` 
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008546s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008635s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000987s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000926s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000893s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000921s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003880s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000941s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000989s ]
+
+[ 2014-06-03T03:22:18+08:00 ] 127.0.0.1 /demo/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000935s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001018s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Common\functions.php 第 566 行.
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `think_data` [ RunTime:0.002444s ]
+ERR: 1146:Table 'thinkphp.think_data' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_data`
+SQL: SELECT * FROM `think_data`  [ RunTime:0.000257s ]
+ERR: 1146:Table 'thinkphp.think_data' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `think_data` 
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008391s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008482s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001017s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000903s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000875s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000924s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003856s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000900s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000947s ]
+
+[ 2014-06-03T03:22:18+08:00 ] 127.0.0.1 /demo/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002122s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002276s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Common\functions.php 第 566 行.
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `think_data` [ RunTime:0.002509s ]
+ERR: 1146:Table 'thinkphp.think_data' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_data`
+SQL: SELECT * FROM `think_data`  [ RunTime:0.000261s ]
+ERR: 1146:Table 'thinkphp.think_data' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `think_data` 
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006589s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006672s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001068s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000937s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000886s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000921s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003952s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000902s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000949s ]
+
+[ 2014-06-03T03:22:19+08:00 ] 127.0.0.1 /demo/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001529s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Common\functions.php 第 566 行.
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `think_data` [ RunTime:0.002477s ]
+ERR: 1146:Table 'thinkphp.think_data' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_data`
+SQL: SELECT * FROM `think_data`  [ RunTime:0.000231s ]
+ERR: 1146:Table 'thinkphp.think_data' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `think_data` 
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008407s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008518s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000998s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000890s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000858s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000907s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003802s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000861s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000907s ]
+
+[ 2014-06-03T03:22:19+08:00 ] 127.0.0.1 /demo/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000908s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000973s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Common\functions.php 第 566 行.
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `think_data` [ RunTime:0.002321s ]
+ERR: 1146:Table 'thinkphp.think_data' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_data`
+SQL: SELECT * FROM `think_data`  [ RunTime:0.000214s ]
+ERR: 1146:Table 'thinkphp.think_data' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `think_data` 
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006446s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006545s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000939s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000871s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000921s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003884s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000895s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000942s ]
+
+[ 2014-06-03T03:22:19+08:00 ] 127.0.0.1 /demo/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000893s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000980s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Common\functions.php 第 566 行.
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `think_data` [ RunTime:0.002346s ]
+ERR: 1146:Table 'thinkphp.think_data' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_data`
+SQL: SELECT * FROM `think_data`  [ RunTime:0.000214s ]
+ERR: 1146:Table 'thinkphp.think_data' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `think_data` 
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006547s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006628s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000937s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000933s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000861s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000918s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003795s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000889s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000935s ]
+
+[ 2014-06-03T03:22:23+08:00 ] 127.0.0.1 /demo/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001173s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Common\functions.php 第 566 行.
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `think_data` [ RunTime:0.002579s ]
+ERR: 1146:Table 'thinkphp.think_data' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_data`
+SQL: SELECT * FROM `think_data`  [ RunTime:0.000233s ]
+ERR: 1146:Table 'thinkphp.think_data' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `think_data` 
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008864s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008965s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000998s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000924s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000947s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000961s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003987s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000942s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000994s ]
+
+[ 2014-06-03T03:23:13+08:00 ] 127.0.0.1 /demo/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002217s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002371s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Common\functions.php 第 566 行.
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `think_data` [ RunTime:0.002824s ]
+SQL: SELECT * FROM `think_data`  [ RunTime:0.000196s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008494s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008578s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000967s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000924s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000907s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000923s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003893s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000906s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000955s ]
+
+[ 2014-06-03T03:33:39+08:00 ] 127.0.0.1 /demo/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001639s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Common\functions.php 第 566 行.
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `think_data` [ RunTime:0.002489s ]
+SQL: SELECT * FROM `think_data`  [ RunTime:0.000147s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008196s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008266s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001508s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000967s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000884s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000995s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004499s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001133s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001188s ]
+
+[ 2014-06-03T03:34:06+08:00 ] 127.0.0.1 /demo/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000960s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Common\functions.php 第 566 行.
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `think_data` [ RunTime:0.002515s ]
+SQL: SELECT * FROM `think_data`  [ RunTime:0.000196s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010504s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010581s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.005188s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001225s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000528s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001672s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008786s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000580s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000635s ]
+
+[ 2014-06-03T03:35:08+08:00 ] 127.0.0.1 /demo/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001632s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Common\functions.php 第 566 行.
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Common\functions.php 第 566 行.
+NOTIC: [8] iconv() [<a href='function.iconv'>function.iconv</a>]: Detected an illegal character in input string E:\Tools\APMServ5.2.6\www\htdocs\demo\test\Lib\Action\IndexAction.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `think_data` [ RunTime:0.002470s ]
+SQL: SELECT * FROM `think_data`  [ RunTime:0.000150s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008296s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008370s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001687s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001057s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000871s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001103s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004883s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001245s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001298s ]
+
+[ 2014-06-03T03:35:16+08:00 ] 127.0.0.1 /demo/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000928s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001009s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Common\functions.php 第 566 行.
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Common\functions.php 第 566 行.
+NOTIC: [8] iconv() [<a href='function.iconv'>function.iconv</a>]: Detected an illegal character in input string E:\Tools\APMServ5.2.6\www\htdocs\demo\test\Lib\Action\IndexAction.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `think_data` [ RunTime:0.002746s ]
+SQL: SELECT * FROM `think_data`  [ RunTime:0.000195s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007849s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007916s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001639s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000988s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000872s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001117s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004797s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001111s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001192s ]
+
+[ 2014-06-03T03:35:19+08:00 ] 127.0.0.1 /demo/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000947s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001012s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Common\functions.php 第 566 行.
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Common\functions.php 第 566 行.
+NOTIC: [8] iconv() [<a href='function.iconv'>function.iconv</a>]: Detected an illegal character in input string E:\Tools\APMServ5.2.6\www\htdocs\demo\test\Lib\Action\IndexAction.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `think_data` [ RunTime:0.002506s ]
+SQL: SELECT * FROM `think_data`  [ RunTime:0.000153s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007609s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007675s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001714s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000986s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000859s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001148s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004861s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001043s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001106s ]
+
+[ 2014-06-03T03:35:36+08:00 ] 127.0.0.1 /demo/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001377s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Common\functions.php 第 566 行.
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Common\functions.php 第 566 行.
+
+[ 2014-06-03T03:35:46+08:00 ] 127.0.0.1 /demo/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000970s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001061s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Common\functions.php 第 566 行.
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `think_data` [ RunTime:0.003521s ]
+SQL: SELECT * FROM `think_data`  [ RunTime:0.000228s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: spider E:\Tools\APMServ5.2.6\www\htdocs\demo\test\Runtime\Cache\69253bbdbec78f0093b8ce0b8e22a196.php 第 9 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009232s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009317s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001026s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001022s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000932s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000937s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004069s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000911s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000960s ]
+
+[ 2014-06-03T03:36:09+08:00 ] 127.0.0.1 /demo/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000647s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Common\functions.php 第 566 行.
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `think_data` [ RunTime:0.002893s ]
+SQL: SELECT * FROM `think_data`  [ RunTime:0.000208s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006284s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006359s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000911s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000582s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000496s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000708s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002835s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000752s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000816s ]
+
+[ 2014-06-03T03:36:25+08:00 ] 127.0.0.1 /demo/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001255s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001355s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Common\functions.php 第 566 行.
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Common\functions.php 第 566 行.
+NOTIC: [8] iconv() [<a href='function.iconv'>function.iconv</a>]: Detected an illegal character in input string E:\Tools\APMServ5.2.6\www\htdocs\demo\test\Lib\Action\IndexAction.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `think_data` [ RunTime:0.002789s ]
+SQL: SELECT * FROM `think_data`  [ RunTime:0.000216s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009811s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009911s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000996s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000926s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000910s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000996s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003991s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000961s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001016s ]
+
+[ 2014-06-03T03:36:33+08:00 ] 127.0.0.1 /demo/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000909s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000982s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Common\functions.php 第 566 行.
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Common\functions.php 第 566 行.
+NOTIC: [8] iconv() [<a href='function.iconv'>function.iconv</a>]: Detected an illegal character in input string E:\Tools\APMServ5.2.6\www\htdocs\demo\test\Lib\Action\IndexAction.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `think_data` [ RunTime:0.002608s ]
+SQL: SELECT * FROM `think_data`  [ RunTime:0.000183s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007943s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008036s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000959s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000971s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000897s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000928s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003918s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000917s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000979s ]
+
+[ 2014-06-03T03:37:13+08:00 ] 127.0.0.1 /demo/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002952s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Common\functions.php 第 566 行.
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `think_data` [ RunTime:0.003223s ]
+SQL: SELECT * FROM `think_data`  [ RunTime:0.000230s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: spider E:\Tools\APMServ5.2.6\www\htdocs\demo\test\Runtime\Cache\69253bbdbec78f0093b8ce0b8e22a196.php 第 9 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010017s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010098s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001126s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001146s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000964s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000945s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004406s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000931s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000989s ]
+
+[ 2014-06-03T08:58:31+08:00 ] 127.0.0.1 /demo/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003037s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Common\functions.php 第 566 行.
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `think_data` [ RunTime:0.003157s ]
+SQL: SELECT * FROM `think_data`  [ RunTime:0.000262s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: spider E:\Tools\APMServ5.2.6\www\htdocs\demo\test\Runtime\Cache\69253bbdbec78f0093b8ce0b8e22a196.php 第 9 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.028445s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028547s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002086s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002060s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001890s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002293s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008509s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002589s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002651s ]
+
+[ 2014-06-03T09:01:33+08:00 ] 127.0.0.1 /demo/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000715s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Common\functions.php 第 566 行.
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `think_data` [ RunTime:0.002826s ]
+SQL: SELECT * FROM `think_data`  [ RunTime:0.000200s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011042s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011130s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001179s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000645s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000535s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000649s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003162s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000641s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000728s ]
+
+[ 2014-06-03T10:03:23+08:00 ] 127.0.0.1 /demo/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006770s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006861s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Common\functions.php 第 566 行.
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Common\functions.php 第 566 行.
+NOTIC: [2] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Can't connect to MySQL server on 'localhost' (10061) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+ERR: Can't connect to MySQL server on 'localhost' (10061)
+
+[ 2014-06-03T10:03:54+08:00 ] 127.0.0.1 /demo/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001076s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Common\functions.php 第 566 行.
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `think_data` [ RunTime:0.030457s ]
+SQL: SELECT * FROM `think_data`  [ RunTime:0.000441s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.108752s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.108921s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.010185s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.014809s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.005288s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.013903s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.044551s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Tools\APMServ5.2.6\www\htdocs\demo\index.php:1) E:\Tools\APMServ5.2.6\www\htdocs\demo\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.022226s ]
+INFO: [ view_end ] --END-- [ RunTime:0.022385s ]
+

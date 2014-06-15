@@ -1,0 +1,13 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Select Data</title>
+</head>
+<body>
+    <volist name="data" id="vo">
+    {$vo.id}--{$vo.nickname}--{$vo.email}  角色:<php>$Role=M("role_user"); $r = $Role->find($vo['id']); echo $r['role_id']; echo '--'.$vo['id']</php><br/>
+    </volist>
+    {$spider}
+</body>
+</html>

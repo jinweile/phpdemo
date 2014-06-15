@@ -1,0 +1,221 @@
+[ 2014-06-06T11:09:08+08:00 ] 127.0.0.1 /demo/ajax/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000477s ]
+SQL: SHOW COLUMNS FROM `think_form` [ RunTime:0.010508s ]
+SQL: SELECT * FROM `think_form` ORDER BY id desc LIMIT 3   [ RunTime:0.000222s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021117s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021231s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000955s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000768s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000728s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000781s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003387s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000771s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000823s ]
+
+[ 2014-06-06T11:09:12+08:00 ] 127.0.0.1 /demo/ajax/Index/checkTitle
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.014150s ]
+INFO: [ route_check ] --END-- [ RunTime:0.014226s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000255s ]
+
+[ 2014-06-06T11:09:19+08:00 ] 127.0.0.1 /demo/ajax/Index/checkTitle
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000966s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001036s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000187s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000235s ]
+
+[ 2014-06-06T11:10:08+08:00 ] 127.0.0.1 /demo/ajax/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000970s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001045s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000187s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000239s ]
+SQL: SHOW COLUMNS FROM `think_form` [ RunTime:0.002681s ]
+SQL: SELECT * FROM `think_form` ORDER BY id desc LIMIT 3   [ RunTime:0.000161s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009264s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009350s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000813s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000757s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000721s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000768s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003204s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000753s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000804s ]
+
+[ 2014-06-06T11:10:15+08:00 ] 127.0.0.1 /demo/ajax/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000962s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001056s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000247s ]
+SQL: SHOW COLUMNS FROM `think_form` [ RunTime:0.002548s ]
+SQL: SELECT * FROM `think_form` ORDER BY id desc LIMIT 3   [ RunTime:0.000149s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009267s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009352s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000821s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000765s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000742s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000779s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003255s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000762s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000814s ]
+
+[ 2014-06-06T11:10:17+08:00 ] 127.0.0.1 /demo/ajax/Index/checkTitle
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000882s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000948s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000169s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000214s ]
+
+[ 2014-06-06T11:13:06+08:00 ] 127.0.0.1 /demo/ajax/Index/insert
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000586s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000656s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000623s ]
+SQL: SHOW COLUMNS FROM `think_form` [ RunTime:0.002851s ]
+SQL: SELECT * FROM `think_form` WHERE ( `title` = 'ajax提交表单' ) LIMIT 1   [ RunTime:0.000206s ]
+SQL: INSERT INTO `think_form` (`title`,`content`,`create_time`) VALUES ('ajax提交表单','ajax提交表单ajax提交表单ajax提交表单ajax提交表单',1402024386) [ RunTime:0.000288s ]
+
+[ 2014-06-06T11:14:36+08:00 ] 127.0.0.1 /demo/ajax/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000224s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000220s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000283s ]
+SQL: SHOW COLUMNS FROM `think_form` [ RunTime:0.002974s ]
+SQL: SELECT * FROM `think_form` ORDER BY id desc LIMIT 3   [ RunTime:0.000258s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012374s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012476s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001191s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000671s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001068s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001127s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004229s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001108s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001169s ]
+
+[ 2014-06-06T11:14:38+08:00 ] 127.0.0.1 /demo/ajax/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000243s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000296s ]
+SQL: SHOW COLUMNS FROM `think_form` [ RunTime:0.002957s ]
+SQL: SELECT * FROM `think_form` ORDER BY id desc LIMIT 3   [ RunTime:0.000259s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011126s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011224s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000997s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000221s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000882s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000873s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003140s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000680s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000724s ]
+
+[ 2014-06-06T11:14:47+08:00 ] 127.0.0.1 /demo/ajax/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000200s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000269s ]
+SQL: SHOW COLUMNS FROM `think_form` [ RunTime:0.002707s ]
+SQL: SELECT * FROM `think_form` ORDER BY id desc LIMIT 3   [ RunTime:0.000299s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008936s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009004s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000805s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000177s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000754s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000835s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002724s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000776s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000831s ]
+
+[ 2014-06-06T11:14:51+08:00 ] 127.0.0.1 /demo/ajax/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000177s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000240s ]
+SQL: SHOW COLUMNS FROM `think_form` [ RunTime:0.002740s ]
+SQL: SELECT * FROM `think_form` ORDER BY id desc LIMIT 3   [ RunTime:0.000183s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008409s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008489s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000868s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000160s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000650s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000788s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002597s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000767s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000815s ]
+
+[ 2014-06-06T11:17:05+08:00 ] 127.0.0.1 /demo/ajax/Index/insert
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000581s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000653s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000618s ]
+SQL: SHOW COLUMNS FROM `think_form` [ RunTime:0.002439s ]
+SQL: SELECT * FROM `think_form` WHERE ( `title` = '4K真色彩 华硕PB287Q4K显示器试用' ) LIMIT 1   [ RunTime:0.000190s ]
+SQL: INSERT INTO `think_form` (`title`,`content`,`create_time`) VALUES ('4K真色彩 华硕PB287Q4K显示器试用','华硕PB287Q 4K显示器采用28英寸、拥有3840×2160分辨率、采用成本更低的TN面板。华硕PB287Q提供1ms响应时间，原生对比度为1000:1，亮度高达300cd/㎡，可视角度为170/160°。接口方面，华硕PB287Q液晶显示器提供DisplayPort,HDMI/MHL，HDMI三种类型接口。华硕PB287Q液晶显示器支持60HZ刷新率。',1402024625) [ RunTime:0.000198s ]
+
+[ 2014-06-06T11:17:08+08:00 ] 127.0.0.1 /demo/ajax/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000366s ]
+SQL: SHOW COLUMNS FROM `think_form` [ RunTime:0.003193s ]
+SQL: SELECT * FROM `think_form` ORDER BY id desc LIMIT 3   [ RunTime:0.000264s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012872s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012971s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001304s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000734s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000808s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000851s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003851s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000832s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000878s ]
+
+[ 2014-06-06T11:29:07+08:00 ] 127.0.0.1 /demo/ajax/Index/insert
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000606s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000680s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000628s ]
+SQL: SHOW COLUMNS FROM `think_form` [ RunTime:0.002446s ]
+SQL: SELECT * FROM `think_form` WHERE ( `title` = 'dxfgdsfg' ) LIMIT 1   [ RunTime:0.000227s ]
+SQL: INSERT INTO `think_form` (`title`,`content`,`create_time`) VALUES ('dxfgdsfg','sdfgsdfgsdfgdf',1402025347) [ RunTime:0.000221s ]
+
