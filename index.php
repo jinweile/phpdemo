@@ -10,7 +10,7 @@ define('APP_DEBUG', true);
 // 加载框架入口文件
 require(THINK_PATH."ThinkPHP.php");
 //实例化一个网站应用实例
-$App = new App();
+//$App = new App();
 //应用程序初始化
-$App->run();
+//$App->run();
 ?>
